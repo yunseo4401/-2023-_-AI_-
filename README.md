@@ -1,6 +1,7 @@
-# Project Title
+# IPO_HELPER
 
-One Paragraph of project description goes here
+2023 미래에셋 빅데이터 페스티발 생성형 ai부분 최우수 팀 프로젝트 깃헙입니다. 
+저희는 공모주 청약을 도울 수 있는 공모주 뉴스 요약과 챗봇의 모델링과 실제 서비스 구현을 진행하였습니다. 
 
 ## Getting Started
 
