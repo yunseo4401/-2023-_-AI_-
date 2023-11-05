@@ -15,7 +15,7 @@
 
 ![](https://github.com/yunseo4401/IPO-HELPER/blob/main/image1.jpg)
 
-### 공모주 챗봇 서비스
+## 공모주 챗봇 서비스
 공모주 챗봇 서비스는 이용 목적 및 성능을 고려하여 두 가지 챗봇을 구성하였습니다. 
 1. 단어 사전 챗봇
 
@@ -34,12 +34,13 @@
 Give examples
 ```
 
-### Installing
+## 데이터
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
+450개의 공모주에 대하여 네이버와 구글의 신문기사를 직접 크롤링하였습니다. 
+기사는 청약일 기준 한달 내의 기사만 사용하였습니다. 
+2023년 7월기준 최신 순으로 450개를 선정하였습니다. 
+챗봇데이터는 지식인과 아하사이트에서 "공모주"키워드 검색 결과 질문과 답변 데이터를 직접 크롤링하였습니다. 
+데이터의 이용을 원하신다면 diakys2@
 ```
 Give the example
 ```
