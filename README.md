@@ -3,9 +3,10 @@
 
 저희는 공모주 청약을 도울 수 있는 공모주 뉴스 요약과 챗봇의 모델링과 실제 서비스 구현을 진행하였습니다. 
 
-## Getting Started
+## 공모주 뉴스 요약 서비스 
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+원하는 공모주의 이름을 입력하면 해당 입력날짜로부터 한달 사이안의 기사를 실시간으로 크롤링하여 요약 기사를 반환합니다. 
+
 
 ### Prerequisites
 
