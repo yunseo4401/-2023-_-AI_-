@@ -23,7 +23,7 @@
    
    KoGPT- trinity를 finetuning하여 모델을 구축하였습니다.
    
-   ![](https://github.com/yunseo4401/IPO-HELPER/blob/main/image2.png)
+   ![](https://github.com/yunseo4401/IPO-HELPER/blob/main/image3.png)
    
 3. 질의 응답 챗봇
 
@@ -31,7 +31,7 @@
    
    encoder로 Bert를 사용한 poly-encoder을 fintuning하여 모델을 구축하였습니다.
 
-   ![](https://github.com/yunseo4401/IPO-HELPER/blob/main/image3.png)
+   ![](https://github.com/yunseo4401/IPO-HELPER/blob/main/image2.png)
 
 
 ## 데이터
