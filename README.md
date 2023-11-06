@@ -48,8 +48,27 @@
 |공모주 답변데이터|[31,905]|
 
 
+## 성능
+요약모델과 챗봇모델의 rouge 스코어와 perplexity는 다음과 같습니다. 
+|요약모델|score|
+|:-----:|:-----:|
+|rouge 1 mid|[0.6432]|
+|rouge 2 mid|[0.5803]|
+|rouge L mid|[0.6336]|
+|rouge Lsum mid|[0.6418]|
 
+|챗봇-poly encoder|score(epoch10)|
+|:-----:|:-----:|
+|R1|[0.8294]|
+|R2|0.9183]|
+|R5|[0.9899]|
+|R10|[1.0]|
 
+|챗봇-Kogpt|score(epoch4)|
+|:-----:|:-----:|
+|train_loss|[0.1197]|
+|valid loss|0.8293]|
+|perplexity|[2.2917]|
 
 ## 서비스 이용하기 
 
