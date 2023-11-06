@@ -21,15 +21,17 @@
 
    모르는 단어를 명사형태로 입력하면 이에 대한 정의를 반환하여 줍니다.
    
-   KoGPT- trinity를 finetuning하여 모델을 구축하였습니다. 
-2. 질의 응답 챗봇
+   KoGPT- trinity를 finetuning하여 모델을 구축하였습니다.
+   
+   ![](https://github.com/yunseo4401/IPO-HELPER/blob/main/image2.png)
+   
+3. 질의 응답 챗봇
 
    공모주 청약 중 발생 할 수 있는 질문을 자유로운 형태로 입력하면 이에 대한 알맞은 답변을 반환하여 줍니다.
    
-   encoder로 Bert를 사용한 poly-encoder을 fintuning하여 모델을 구축하였습니다. 
-실제 데모는 다음과 같이 작용합니다. 
+   encoder로 Bert를 사용한 poly-encoder을 fintuning하여 모델을 구축하였습니다.
 
-![](https://github.com/yunseo4401/IPO-HELPER/blob/main/image2.png)
+   ![](https://github.com/yunseo4401/IPO-HELPER/blob/main/image3.png)
 
 
 ## 데이터
