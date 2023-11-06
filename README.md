@@ -56,7 +56,7 @@
 ```
 1. git clone --
 2. pip install -r requirements.txt
-3. cd C:/ -- (레포를 깃클론한 공간으로)
+3. cd C:/ -- (레포를 git clone 한 공간으로)
 4. python server.py
 ```
 
