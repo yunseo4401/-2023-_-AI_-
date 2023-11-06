@@ -13,7 +13,7 @@
 
 실제 데모는 다음과 같이 작용합니다. 
 
-![](https://github.com/yunseo4401/IPO-HELPER/blob/main/image1.jpg)
+
 
 ## 공모주 챗봇 서비스
 공모주 챗봇 서비스는 이용 목적 및 성능을 고려하여 두 가지 챗봇을 구성하였습니다. 
@@ -30,9 +30,7 @@
 실제 데모는 다음과 같이 작용합니다. 
 
 ![](https://github.com/yunseo4401/IPO-HELPER/blob/main/image2.png)
-```
-Give examples
-```
+
 
 ## 데이터
 
@@ -40,22 +38,25 @@ Give examples
 기사는 청약일 기준 한달 내의 기사만 사용하였습니다. 
 2023년 7월기준 최신 순으로 450개를 선정하였습니다. 
 챗봇데이터는 지식인과 아하사이트에서 "공모주"키워드 검색 결과 질문과 답변 데이터를 직접 크롤링하였습니다. 
-데이터의 이용을 원하신다면 diakys2@
+데이터 증강 후 최종 개수는 다음과 같습니다. 
+|데이터 종류|개수|
+|:-----:|:-----:|
+|공모주 기사|[53,640]|
+|공모주 질문데이터|[15,661]|
+|공모주 답변데이터|[31,905]|
+
+
+
+
+
+## 서비스 이용하기 
+
 ```
-Give the example
+1. git clone --
+2. pip install -r requirements.txt
+3. cd C:/ -- (레포를 깃클론한 공간으로)
+4. python server.py
 ```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
 
 ### Break down into end to end tests
 
