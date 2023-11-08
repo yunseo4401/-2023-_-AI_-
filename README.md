@@ -78,6 +78,13 @@
 3. cd C:/ -- (레포를 git clone 한 공간으로)
 4. python server.py
 ```
+서버 생성에 필요한 모델 경로 파일은 다음 드라이브 링크에서 다운받으실 수 있습니다. (용량이 굉장히 큽니다. )
+
+요약 모델 경로 : https://drive.google.com/file/d/10TDyacV2i5En2NMzLpsIneTY7TPetF-c/view
+
+사전 챗봇 경로 : https://drive.google.com/file/d/1icm9lYJanxwBt66edJqpgYoj8E7aQdGX/view
+
+질문 챗봇 경로 : https://drive.google.com/drive/folders/1fxDm6IIzNFiA-r8Q61TxIkeLjLUsvRvr
 
 ### Break down into end to end tests
 
