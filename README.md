@@ -1,5 +1,5 @@
 # IPO_HELPER
-2023 미래에셋 빅데이터 페스티벌 생성형 ai부분 최우수 팀 프로젝트 깃헙입니다. 
+2023 [미래에셋 빅데이터](https://miraeassetfesta.com/) 페스티벌 생성형 ai부분 최우수 팀 프로젝트 깃헙입니다. 
 
 저희는 공모주 청약을 도울 수 있는 공모주 뉴스 요약과 챗봇의 모델링과 실제 서비스 구현을 진행하였습니다. 
 
@@ -71,7 +71,7 @@
 |perplexity|[2.2917]|
 
 ## 서비스 이용하기 
-
+서버를 사용하기 위한 폴더는 mirae_chatbot, mirae_summarization 입니다. 
 ```
 1. git clone --
 2. pip install -r requirements.txt
