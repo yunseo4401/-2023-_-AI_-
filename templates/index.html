@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>ChatBot</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="{{url_for('static', filename='css/bootstrap.min.css')}}" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="{{url_for('static', filename='css/mdb.min.css')}}" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="{{url_for('static', filename='css/style.min.css')}}" rel="stylesheet">
+    <!-- 나눔 바른 고딕 웹 폰트 적용하기 -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/font-nanum/1.0/nanumbarungothic/nanumbarungothic.css">
+    <style type="text/css">
+
+        html,
+        body,
+        header,
+        .carousel {
+            height: 100%;
+        }
+
+        @media (min-width: 800px) and (max-width: 850px) {
+            .navbar:not(.top-nav-collapse) {
+                background: #1C2331 !important;
+            }
+        }
+
+        .hangul {
+            font-family: 'Nanum Barun Gothic' !important;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+        <div class="container">
+
+            <!-- Brand -->
+            <a class="navbar-brand" href="#" target="_blank">
+                <strong class="hangul">MIRAE</strong>
+            </a>
+
+            <!-- Collapse -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Links -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <!-- Left -->
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">
+                            Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                </ul>
+
+                <!-- Right -->
+                <ul class="navbar-nav nav-flex-icons">
+                    <li class="nav-item">
+                        <a href="https://securities.miraeasset.com/" class="nav-link" target="_blank">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://securities.miraeasset.com/" class="nav-link" target="_blank">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://securities.miraeasset.com/" class="nav-link border border-light rounded"
+                           target="_blank">
+                            <i class="fa fa-github mr-2"></i>GitHub
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+    </nav>
+    <!-- Navbar -->
+    <!--Carousel Wrapper-->
+    <div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
+
+        <!--Indicators-->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-1z" data-slide-to="1"></li>
+            <li data-target="#carousel-example-1z" data-slide-to="2"></li>
+        </ol>
+        <!--/.Indicators-->
+        <!--Slides-->
+        <div class="carousel-inner" role="listbox">
+
+            <!--First slide-->
+            <div class="carousel-item active">
+                <div class="view">
+
+                    <!--Video source-->
+                    <video class="video-intro" autoplay loop>
+                        <source src="https://mdbootstrap.com/img/video/city.mp4" type="video/mp4">
+                    </video>
+
+                    <!-- Mask & flexbox options-->
+                    <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+                        <!-- Content -->
+                        <div class="text-center white-text mx-5 wow fadeIn">
+                            <h1 class="mb-4">
+                                <strong style="font-family: 'Nanum Barun Gothic'">공모주 특화 질문 챗봇 </strong>
+                            </h1>
+
+                            <p>
+                                <strong style="font-family: 'Nanum Barun Gothic'">공모주와 관련된 질문에 대한 답변을 제공합니다. </strong>
+                            </p>
+
+                            <p class="mb-4 d-none d-md-block">
+                                <strong>미세조정한 Poly-encoder와 Kogpt기반 챗봇</strong>
+                            </p>
+
+                            <a target="_blank" href="https://securities.miraeasset.com/" class="btn btn-outline-white btn-lg">
+                                LET'S GO Mirae
+                                <i class="fa fa-graduation-cap ml-2"></i>
+                            </a>
+                        </div>
+                        <!-- Content -->
+
+                    </div>
+                    <!-- Mask & flexbox options-->
+
+                </div>
+            </div>
+            <!--/First slide-->
+            <!--Second slide-->
+            <div class="carousel-item">
+                <div class="view">
+
+                    <!--Video source-->
+                    <video class="video-intro" autoplay loop>
+                        <source src="https://mdbootstrap.com/img/video/forest.mp4" type="video/mp4">
+                    </video>
+
+                    <!-- Mask & flexbox options-->
+                    <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+                        <!-- Content -->
+                        <div class="text-center white-text mx-5 wow fadeIn">
+                            <h1 class="mb-4">
+                                <strong style="font-family: 'Nanum Barun Gothic'">공모주 특화 질문 챗봇</strong>
+                            </h1>
+
+                            <p>
+                                <strong style="font-family: 'Nanum Barun Gothic'">공모주와 관련된 질문에 대한 답변을 제공합니다.</strong>
+                            </p>
+
+                            <p class="mb-4 d-none d-md-block">
+                                <strong>미세조정한 Poly-encoder와 Kogpt기반 챗봇</strong>
+                            </p>
+
+                            <a target="_blank" href="https://securities.miraeasset.com/" class="btn btn-outline-white btn-lg">
+                                LET'S GO MIRAE
+                                <i class="fa fa-graduation-cap ml-2"></i>
+                            </a>
+                        </div>
+                        <!-- Content -->
+
+                    </div>
+                    <!-- Mask & flexbox options-->
+
+                </div>
+            </div>
+            <!--/Second slide-->
+            <!--Third slide-->
+            <div class="carousel-item">
+                <div class="view">
+
+                    <!--Video source-->
+                    <video class="video-intro" autoplay loop>
+                        <source src="https://mdbootstrap.com/img/video/Tropical.mp4" type="video/mp4">
+                    </video>
+
+                    <!-- Mask & flexbox options-->
+                    <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+                        <!-- Content -->
+                        <div class="text-center white-text mx-5 wow fadeIn">
+                            <h1 class="mb-4">
+                                <strong style="font-family: 'Nanum Barun Gothic'">공모주 특화 질문 챗봇</strong>
+                            </h1>
+
+                            <p>
+                                <strong style="font-family: 'Nanum Barun Gothic'">공모주와 관련된 질문에 대한 답변을 제공합니다.</strong>
+                            </p>
+
+                            <p class="mb-4 d-none d-md-block">
+                                <strong>미세조정한 Poly-encoder와 Kogpt기반 챗봇</strong>
+                            </p>
+
+                            <a target="_blank" href="https://securities.miraeasset.com/" class="btn btn-outline-white btn-lg">
+                                LET'S GO MIRAE
+                                <i class="fa fa-graduation-cap ml-2"></i>
+                            </a>
+                        </div>
+                        <!-- Content -->
+
+                    </div>
+                    <!-- Mask & flexbox options-->
+
+                </div>
+            </div>
+            <!--/Third slide-->
+
+        </div>
+        <!--/.Slides-->
+        <!--Controls-->
+        <a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel-example-1z" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+        <!--/.Controls-->
+
+    </div>
+    <!--/.Carousel Wrapper-->
+    <!--Main layout-->
+    <main>
+        <div class="container">
+
+            <!--Section: Main info-->
+            <section class="mt-5 wow fadeIn">
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-6 mb-4">
+
+                        <img src="{{url_for('static', filename='img/graph.png')}}" class="img-fluid z-depth-1-half" alt="">
+
+                    </div>
+                    <!--Grid column-->
+                    <!--Grid column-->
+                    <div class="col-md-6 mb-4">
+
+                        <!-- Main heading -->
+                        <h3 class="h3 mb-3" style="font-family: 'Nanum Barun Gothic'">공모주 관련 지식 챗봇 </h3>
+                        <p style="font-family: 'Nanum Barun Gothic'">
+                            미세조정한 poly-encoder와 kogpt를 통해 공모주와 관련된 일반적인 질문에 대한 답변을 도출해냅니다. 왼쪽 하단의 챗봇을 통해 이용가능합니다.   
+                            <strong style="font-family: 'Nanum Barun Gothic'">공모주</strong>와 관련된 개념이 궁금하다면 하단 오른쪽의 챗봇을 이용하시면 됩니다. 미세조정한 kogpt만을 이용합니다.  
+                        </p>
+                        <p></p>
+                        <!-- Main heading -->
+
+                        <hr>
+
+                        <p style="font-family: 'Nanum Barun Gothic'">
+                            <strong>질문챗봇의 경우</strong>"공모주" 또는 "청약" 단어를 포함하거나 이와 관련된 개념을 포함하는 질문을 하셔야 합니다. 특정 주식에 대한 질문은 답변을 진행하지 않습니다. 
+                            <strong>공모주 개념 챗봇의 경우</strong> 질문하고 싶은 단어만을 입력하여 명사로 입력해주십시오.  
+                            <strong></strong>감사합니다.
+                        </p>
+
+                        <!-- CTA -->
+                        <a target="_blank" href="https://securities.miraeasset.com/"
+                           style="font-family: 'Nanum Barun Gothic'" class="btn btn-grey btn-md">
+                            미래에셋 증권 가기
+                            <i class="fa fa-download ml-1"></i>
+                        </a>
+
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+            </section>
+            <!--Section: Main info-->
+
+            <hr class="my-5">
+
+            <!--Section: Main features & Quick Start-->
+            <section>
+
+                <h3 class="h3 text-center mb-5" style="font-family: 'Nanum Barun Gothic'">챗봇 이용하기</h3>
+
+                <!--Grid row-->
+                <div class="row wow fadeIn">
+
+                    <!--Grid column-->
+                    <div class="col-lg-6 col-md-12 px-4">
+                        <form action="/" method="post">
+                            <!-- Default form group -->
+                            <!-- Default input -->
+                            <div class="form-group">
+                                <label style="font-family: 'Nanum Barun Gothic'" for="formGroupExampleInput">질문 입력창</label>
+                                <input style="font-family: 'Nanum Barun Gothic'" type="text" name="name" class="form-control" id="formGroupExampleInput" placeholder="원하는 질문을 입력하세요 ">
+                            </div>
+                            <!-- Default form group -->
+                            <button style="font-family: 'Nanum Barun Gothic' !important;" type="submit" class="btn btn-primary btn-md pull-right">답변생성</button>
+                        </form>
+
+                        <p class="h5 text-center mb-4" style="font-family: 'Nanum Barun Gothic'">답변생성결과</p>
+                        {% if poly_encoder_answer %}
+                        <h5 class="text-center mt-3"> {{ poly_encoder_answer }} </h5>
+                        {% else %}
+                        <h5 class="text-center mt-3">생성된 답변이 없습니다.</h5>
+                        {% endif %}
+
+                       
+
+                    </div>
+                    <div class="col-lg-6 col-md-12 px-4 ml-auto">
+                        <!-- ml-auto를 추가하여 오른쪽으로 이동 -->
+                        <form action="/mean" method="post">
+                            <!-- Default form group -->
+                            <!-- Default input -->
+                            <div class="form-group">
+                                <label style="font-family: 'Nanum Barun Gothic'" for="formGroupExampleInput">궁금한 단어 입력창 </label>
+                                <input style="font-family: 'Nanum Barun Gothic'" type="text" name="new_name" class="form-control" id="newFormGroupExampleInput" placeholder="궁금한 단어를 명사로 입력하세요.">
+                            </div>
+                            <!-- Default form group -->
+                            <button style="font-family: 'Nanum Barun Gothic' !important;" type="submit" class="btn btn-primary btn-md pull-right">답변생성</button>
+                        </form>
+
+                        <p class="h5 text-center mb-4" style="font-family: 'Nanum Barun Gothic'">답변생성결과 </p>
+                        {% if kogpt_answer %}
+                        <h5 class="text-center mt-3"> {{ kogpt_answer }} </h5>
+                        {% else %}
+                        <h5 class="text-center mt-3">생성된 답변이 없습니다.</h5>
+                        {% endif %}
+                    </div>
+                </div>
+                <!--/Grid row-->
+
+            </section>
+            <!--Section: Main features & Quick Start-->
+
+        </div>
+    </main>
+    <!--Main layout-->
+    <!--Footer-->
+    <footer class="page-footer text-center font-small mt-4 wow fadeIn">
+
+        <!--Call to action-->
+        <div class="pt-4">
+            <a class="btn btn-outline-white" href="https://securities.miraeasset.com/" target="_blank" role="button">
+                LET'S GO MIRAE
+                <i class="fa fa-graduation-cap ml-2"></i>
+            </a>
+        </div>
+        <!--/.Call to action-->
+
+        <hr class="my-4">
+
+        <!--Copyright-->
+        <div class="footer-copyright py-3">
+            © 2023 Copyright:
+            <a href="https://securities.miraeasset.com/" target="_blank"> SPk </a>
+        </div>
+        <!--/.Copyright-->
+
+    </footer>
+    <!--/.Footer-->
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="{{url_for('static', filename='js/jquery-3.3.1.min.js')}}"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="{{url_for('static', filename='js/popper.min.js')}}"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="{{url_for('static', filename='js/bootstrap.min.js')}}"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="{{url_for('static', filename='js/mdb.min.js')}}"></script>
+    <!-- Initializations -->
+    <script type="text/javascript">
+        // Animations initialization
+        new WOW().init();
+    </script>
+</body>
+
+</html>
