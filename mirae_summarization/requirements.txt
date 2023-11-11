@@ -1,0 +1,9 @@
+textrankr
+konlpy
+accelerate
+transformers
+datasets
+evaluate
+rouge_score
+transformers[sentencepiece]
+selenium
