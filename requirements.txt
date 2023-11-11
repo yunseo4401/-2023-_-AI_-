@@ -1,5 +1,0 @@
-transformers
-sentence_transformers
-folium==0.2.1
-flask
-konlpy
